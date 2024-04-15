@@ -4,13 +4,13 @@ import getUserModel from "./user";
 import getMessageModel from "./message";
 
 const sequelize = new Sequelize(
-  process.env.DATABASE,
-  process.env.DATABASE_USER,
-  process.env.DATABASE_PASSWORD,
+  process.env.POSTGRES_DB,
+  process.env.POSTGRES_USER,
+  process.env.POSTGRES_PASSWORD,
   {
     // native: true,
     // ssl: true,
-    host: process.env.DATABASE_HOST,
+    host: process.env.POSTGRES_HOST,
     dialect: "postgres",
   }
 );
