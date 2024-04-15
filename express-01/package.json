@@ -13,6 +13,9 @@
     "nodejs"
   ],
   "author": "Márcio Bueno <marcio.bueno@unicap.br> (https://marciobueno.com/)",
+  "contributors": [
+    "Hylan Silva <hylan.00000847839@unicap.br>"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.24.0",
